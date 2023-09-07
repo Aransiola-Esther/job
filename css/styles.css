@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #360542cb;
+    width: 100%;
+    display: flex; /* responsible for moving content in container */
+    justify-content: center;
+}
+.container{
+    width: 960px;
+    min-height: 600px;
+    background-color: #ffffff;
+}
+ .container h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.container section form{
+    width: 100%;
+    height: 200%;
+    padding: 20px;
+    background-color: #c50fdd2c;
+    align-content: center;
+}
+.container section form input, label, textarea,select {
+    display: block; 
+    width: 90%;
+    margin: 5px;
+    /* border:solid 2px purple; */
+    background-size: 50px;
+    outline: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+ 
+}
+/* .container div{
+    display: flex;
+    width: 80px;
+} */
+
+.container p{
+    font-size: 20px;
+}
+.container .flex{
+    display: flex;
+   
+    width: 100%;
+}
+.container .flex .one{
+    width: 50%;
+   
+}
+.container .flex .two{
+    width: 50%;
+      
+}
+
+.container .flex .two div{
+    display: flex;
+}
+
+.container .flex .two div label{
+    width: 700px;
+    margin: 0;
+}
+
+.container input{
+   height: 40px;
+}
+
+.container .flex form .fin{
+    display: flex;
+}
+.container form .submit{
+    /* background-color: purple; */
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 20%;
+    margin-left: 300px; 
+    text-align: center;
+    padding-top:50px    
+}
