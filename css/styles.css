@@ -4,15 +4,18 @@
 }
 body{
     margin: 0;
-    background-color: #360542cb;
+    background-color: #340a3fd7;
     width: 100%;
     display: flex; /* responsible for moving content in container */
     justify-content: center;
+    margin-left: 50px;
 }
 .container{
     width: 960px;
     min-height: 600px;
     background-color: #ffffff;
+    margin-right: 60px;
+    justify-content: center;
 }
  .container h1{
     text-align: center;
@@ -27,7 +30,7 @@ body{
 }
 .container section form input, label, textarea,select {
     display: block; 
-    width: 90%;
+    width: 100%;
     margin: 5px;
     /* border:solid 2px purple; */
     background-size: 50px;
@@ -71,7 +74,8 @@ body{
 .container input{
    height: 40px;
 }
-
+.container h3{ font-size: 35px;
+}
 .container .flex form .fin{
     display: flex;
 }
@@ -84,4 +88,7 @@ body{
     margin-left: 300px; 
     text-align: center;
     padding-top:50px    
+}
+.container .center{
+    text-align: center;
 }
